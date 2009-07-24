@@ -1,0 +1,165 @@
+[submodule "com.idega.block.boxoffice"]
+	path = com.idega.block.boxoffice
+	url = git@github.com:idega/com.idega.block.boxoffice.git
+[submodule "com.idega.block.datareport"]
+	path = com.idega.block.datareport
+	url = git@github.com:idega/com.idega.block.datareport.git
+[submodule "com.idega.block.messenger"]
+	path = com.idega.block.messenger
+	url = git@github.com:idega/com.idega.block.messenger.git
+[submodule "com.idega.block.staff"]
+	path = com.idega.block.staff
+	url = git@github.com:idega/com.idega.block.staff.git
+[submodule "com.idega.formbuilder"]
+	path = com.idega.formbuilder
+	url = git@github.com:idega/com.idega.formbuilder.git
+[submodule "com.idega.block.finance"]
+	path = com.idega.block.finance
+	url = git@github.com:idega/com.idega.block.finance.git
+[submodule "is.idega.iceland"]
+	path = is.idega.iceland
+	url = git@github.com:idega/is.idega.iceland.git
+[submodule "com.idega.block.sso"]
+	path = com.idega.block.sso
+	url = git@github.com:idega/com.idega.block.sso.git
+[submodule "is.idega.block.modernus.svarbox"]
+	path = is.idega.block.modernus.svarbox
+	url = git@github.com:idega/is.idega.block.modernus.svarbox.git
+[submodule "com.idega.ascertia"]
+	path = com.idega.ascertia
+	url = git@github.com:idega/com.idega.ascertia.git
+[submodule "com.idega.block.contract"]
+	path = com.idega.block.contract
+	url = git@github.com:idega/com.idega.block.contract.git
+[submodule "com.idega.block.questions"]
+	path = com.idega.block.questions
+	url = git@github.com:idega/com.idega.block.questions.git
+[submodule "com.idega.block.trade"]
+	path = com.idega.block.trade
+	url = git@github.com:idega/com.idega.block.trade.git
+[submodule "com.idega.block.survey"]
+	path = com.idega.block.survey
+	url = git@github.com:idega/com.idega.block.survey.git
+[submodule "com.idega.block.basket"]
+	path = com.idega.block.basket
+	url = git@github.com:idega/com.idega.block.basket.git
+[submodule "com.idega.block.cal"]
+	path = com.idega.block.cal
+	url = git@github.com:idega/com.idega.block.cal.git
+[submodule "com.idega.block.quote"]
+	path = com.idega.block.quote
+	url = git@github.com:idega/com.idega.block.quote.git
+[submodule "com.idega.block.building"]
+	path = com.idega.block.building
+	url = git@github.com:idega/com.idega.block.building.git
+[submodule "com.idega.bpm"]
+	path = com.idega.bpm
+	url = git@github.com:idega/com.idega.bpm.git
+[submodule "com.idega.block.pdf"]
+	path = com.idega.block.pdf
+	url = git@github.com:idega/com.idega.block.pdf.git
+[submodule "net.sourceforge.hsqldb"]
+	path = net.sourceforge.hsqldb
+	url = git@github.com:idega/net.sourceforge.hsqldb.git
+[submodule "com.idega.block.creditcard"]
+	path = com.idega.block.creditcard
+	url = git@github.com:idega/com.idega.block.creditcard.git
+[submodule "com.idega.xformsmanager"]
+	path = com.idega.xformsmanager
+	url = git@github.com:idega/com.idega.xformsmanager.git
+[submodule "is.idega.block.weather"]
+	path = is.idega.block.weather
+	url = git@github.com:idega/is.idega.block.weather.git
+[submodule "org.jboss.jbpm"]
+	path = org.jboss.jbpm
+	url = git@github.com:idega/org.jboss.jbpm.git
+[submodule "com.idega.block.forum"]
+	path = com.idega.block.forum
+	url = git@github.com:idega/com.idega.block.forum.git
+[submodule "com.idega.block.calendar"]
+	path = com.idega.block.calendar
+	url = git@github.com:idega/com.idega.block.calendar.git
+[submodule "com.idega.documentmanager"]
+	path = com.idega.documentmanager
+	url = git@github.com:idega/com.idega.documentmanager.git
+[submodule "com.idega.block.importer"]
+	path = com.idega.block.importer
+	url = git@github.com:idega/com.idega.block.importer.git
+[submodule "com.idega.fop"]
+	path = com.idega.fop
+	url = git@github.com:idega/com.idega.fop.git
+[submodule "com.idega.block.documents"]
+	path = com.idega.block.documents
+	url = git@github.com:idega/com.idega.block.documents.git
+[submodule "com.idega.block.dictionary"]
+	path = com.idega.block.dictionary
+	url = git@github.com:idega/com.idega.block.dictionary.git
+[submodule "is.idega.block.modernus"]
+	path = is.idega.block.modernus
+	url = git@github.com:idega/is.idega.block.modernus.git
+[submodule "com.idega.block.reports"]
+	path = com.idega.block.reports
+	url = git@github.com:idega/com.idega.block.reports.git
+[submodule "com.idega.block.dataquery"]
+	path = com.idega.block.dataquery
+	url = git@github.com:idega/com.idega.block.dataquery.git
+[submodule "com.idega.block.category"]
+	path = com.idega.block.category
+	url = git@github.com:idega/com.idega.block.category.git
+[submodule "com.idega.block.formadmin"]
+	path = com.idega.block.formadmin
+	url = git@github.com:idega/com.idega.block.formadmin.git
+[submodule "com.idega.block.weather"]
+	path = com.idega.block.weather
+	url = git@github.com:idega/com.idega.block.weather.git
+[submodule "is.idega.travel"]
+	path = is.idega.travel
+	url = git@github.com:idega/is.idega.travel.git
+[submodule "com.idega.block.poll"]
+	path = com.idega.block.poll
+	url = git@github.com:idega/com.idega.block.poll.git
+[submodule "com.idega.block.ldap"]
+	path = com.idega.block.ldap
+	url = git@github.com:idega/com.idega.block.ldap.git
+[submodule "com.idega.block.beanshell"]
+	path = com.idega.block.beanshell
+	url = git@github.com:idega/com.idega.block.beanshell.git
+[submodule "is.fmr.landskra"]
+	path = is.fmr.landskra
+	url = git@github.com:idega/is.fmr.landskra.git
+[submodule "com.sapdb.database"]
+	path = com.sapdb.database
+	url = git@github.com:idega/com.sapdb.database.git
+[submodule "com.idega.block.websearch"]
+	path = com.idega.block.websearch
+	url = git@github.com:idega/com.idega.block.websearch.git
+[submodule "com.idega.block.news"]
+	path = com.idega.block.news
+	url = git@github.com:idega/com.idega.block.news.git
+[submodule "com.idega.block.email"]
+	path = com.idega.block.email
+	url = git@github.com:idega/com.idega.block.email.git
+[submodule "org.chiba.web"]
+	path = org.chiba.web
+	url = git@github.com:idega/org.chiba.web.git
+[submodule "com.idega.block.banner"]
+	path = com.idega.block.banner
+	url = git@github.com:idega/com.idega.block.banner.git
+[submodule "com.idega.block.help"]
+	path = com.idega.block.help
+	url = git@github.com:idega/com.idega.block.help.git
+[submodule "com.idega.telecom"]
+	path = com.idega.telecom
+	url = git@github.com:idega/com.idega.telecom.git
+[submodule "com.firebird.database"]
+	path = com.firebird.database
+	url = git@github.com:idega/com.firebird.database.git
+[submodule "com.idega.block.elight"]
+	path = com.idega.block.elight
+	url = git@github.com:idega/com.idega.block.elight.git
+[submodule "com.idega.block.form"]
+	path = com.idega.block.form
+	url = git@github.com:idega/com.idega.block.form.git
+[submodule "com.idega.block.text"]
+	path = com.idega.block.text
+	url = git@github.com:idega/com.idega.block.text.git
