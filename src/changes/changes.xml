@@ -1,0 +1,21 @@
+<document xmlns="http://maven.apache.org/changes/1.0.0">
+  <properties>
+    <title>Module com.idega.block.addon Changes</title>
+    <author email='tryggvi@idega.is'>
+      <name/>
+    </author>
+  </properties>
+  <body>
+    <release date='2009-03-12' description='4.1.2 Release' version='4.1.2'>
+       <action type='add' dev='tryggvil'>
+        New stable 4.1.2 release
+      </action>
+    </release>
+    <release date='2009-01-27' description='First 4.1.x Release' version='4.1.0'>
+       <action type='add' dev='tryggvil'>
+        New stable 4.1 line
+      </action>
+    </release>
+  </body>
+</document>
+
