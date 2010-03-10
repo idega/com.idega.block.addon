@@ -163,3 +163,6 @@
 [submodule "com.idega.block.text"]
 	path = com.idega.block.text
 	url = git@github.com:idega/com.idega.block.text.git
+[submodule "com.idega.openid"]
+	path = com.idega.openid
+	url = git@github.com:idega/com.idega.openid.git
