@@ -491,6 +491,6 @@
 		<addressing-addressing-version>1.0</addressing-addressing-version>
 		<org-chiba-chiba-version>1.4.0-idega-m4</org-chiba-chiba-version>
 		<org-chiba-chiba-web-jar-version>2.2.0</org-chiba-chiba-web-jar-version>
-		<xml-security-xmlsec-version>1.3.0</xml-security-xmlsec-version>
+		<xml-security-xmlsec-version>1.4.4</xml-security-xmlsec-version>
 	</properties>
 </project>
