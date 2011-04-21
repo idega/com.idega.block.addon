@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/maven-v4_0_0.xsd">
+	<modelVersion>4.0.0</modelVersion>
+	<parent>
+		 <groupId>com.idega.block.addon</groupId>
+   		 <artifactId>com.idega.block.addon</artifactId>
+    	 <version>4.1.3-SNAPSHOT</version>
+	</parent>
+	<name>Saga book</name>
+	<packaging>jar</packaging>
+	<groupId>com.idega.block.addon</groupId>
+	<artifactId>is.idega.block.saga</artifactId>
+	<version>4.1.3-SNAPSHOT</version>
+	<inceptionYear>2011</inceptionYear>
+	<description>Saga book</description>
+	<scm>
+		<!--
+			<connection>scm:cvs:ext:${user.name}@code.idega.com:/idega/cvs:${groupId}/${artifactId}/</connection>
+			<developerConnection>scm:cvs:ext:${user.name}@code.idega.com:/idega/cvs:${groupId}/${artifactId}/</developerConnection>
+		-->
+    <connection>scm:cvs:ext:idegaweb@code.idega.com:/idega/cvs:com.idega.block.addon/com.idega.telecom</connection>
+    <developerConnection>scm:cvs:ext:idegaweb@code.idega.com:/idega/cvs:com.idega.block.addon/com.idega.telecom</developerConnection>
+  </scm>
+	<developers>
+		<developer>
+			<name>Aleksandras Sivkovas</name>
+			<id>aleksandras10</id>
+			<email>aleksandras@idega.com</email>
+			<organization>idega software</organization>
+			<roles />
+		</developer>
+		<developer>
+			<name>Martynas Stakė</name>
+			<id>lapiukshtiss</id>
+			<email>martynas@idega.com</email>
+			<organization>idega software</organization>
+			<roles />
+		</developer>
+	</developers>
+	<dependencies>
+		<dependency>
+			<groupId>com.idega.block.platform</groupId>
+			<artifactId>com.idega.core</artifactId>
+			<type>jar</type>
+		</dependency>
+		<dependency>
+			<groupId>com.idega.block.platform</groupId>
+			<artifactId>com.idega.block.web2.0</artifactId>
+			<type>jar</type>
+		</dependency>
+		<dependency>
+			<groupId>com.idega.block.platform</groupId>
+			<artifactId>com.idega.faces</artifactId>
+			<type>jar</type>
+		</dependency>
+	    <dependency>
+	      <groupId>com.idega.block.addon</groupId>
+	      <artifactId>com.idega.block.email</artifactId>
+	    </dependency>
+	</dependencies>
+</project>
