@@ -166,3 +166,6 @@
 [submodule "com.idega.openid"]
 	path = com.idega.openid
 	url = git@github.com:idega/com.idega.openid.git
+[submodule "is.idega.block.saga"]
+	path = is.idega.block.saga
+	url = git@github.com:idega/is.idega.block.saga.git
