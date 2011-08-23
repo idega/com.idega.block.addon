@@ -169,3 +169,6 @@
 [submodule "is.idega.block.saga"]
 	path = is.idega.block.saga
 	url = git@github.com:idega/is.idega.block.saga.git
+[submodule "com.idega.block.caldav"]
+	path = com.idega.block.caldav
+	url = git@github.com:idega/com.idega.block.caldav.git
