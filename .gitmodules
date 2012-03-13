@@ -172,3 +172,9 @@
 [submodule "com.idega.block.social"]
 	path = com.idega.block.social
 	url = git@github.com:idega/com.idega.block.social.git
+[submodule "com.idega.xroad"]
+	path = com.idega.xroad
+	url = git@github.com:idega/com.idega.xroad.git
+[submodule "com.idega.mobile"]
+	path = com.idega.mobile
+	url = git@github.com:idega/com.idega.mobile.git
