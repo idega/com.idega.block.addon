@@ -79,9 +79,6 @@
 [submodule "com.idega.block.calendar"]
 	path = com.idega.block.calendar
 	url = git@github.com:idega/com.idega.block.calendar.git
-[submodule "com.idega.documentmanager"]
-	path = com.idega.documentmanager
-	url = git@github.com:idega/com.idega.documentmanager.git
 [submodule "com.idega.block.importer"]
 	path = com.idega.block.importer
 	url = git@github.com:idega/com.idega.block.importer.git
@@ -106,9 +103,6 @@
 [submodule "com.idega.block.category"]
 	path = com.idega.block.category
 	url = git@github.com:idega/com.idega.block.category.git
-[submodule "com.idega.block.formadmin"]
-	path = com.idega.block.formadmin
-	url = git@github.com:idega/com.idega.block.formadmin.git
 [submodule "com.idega.block.weather"]
 	path = com.idega.block.weather
 	url = git@github.com:idega/com.idega.block.weather.git
