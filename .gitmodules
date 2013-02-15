@@ -112,9 +112,6 @@
 [submodule "com.idega.block.weather"]
 	path = com.idega.block.weather
 	url = git@github.com:idega/com.idega.block.weather.git
-[submodule "is.idega.travel"]
-	path = is.idega.travel
-	url = git@github.com:idega/is.idega.travel.git
 [submodule "com.idega.block.poll"]
 	path = com.idega.block.poll
 	url = git@github.com:idega/com.idega.block.poll.git
@@ -148,9 +145,6 @@
 [submodule "com.idega.block.help"]
 	path = com.idega.block.help
 	url = git@github.com:idega/com.idega.block.help.git
-[submodule "com.idega.telecom"]
-	path = com.idega.telecom
-	url = git@github.com:idega/com.idega.telecom.git
 [submodule "com.firebird.database"]
 	path = com.firebird.database
 	url = git@github.com:idega/com.firebird.database.git
