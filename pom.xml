@@ -74,6 +74,7 @@
 		<module>com.idega.block.social</module>
 		<module>com.idega.xroad</module>
 		<module>com.idega.mobile</module>
+		<module>com.idega.restful</module>
 	</modules>
 
 	<dependencyManagement>
@@ -476,6 +477,12 @@
 		    	<groupId>com.idega.block.addon</groupId>
 		    	<artifactId>com.idega.mobile</artifactId>
 		    	<version>5.0.0-SNAPSHOT</version>
+      			<type>jar</type>
+		    </dependency>
+		    <dependency>
+		    	<groupId>com.idega.block.addon</groupId>
+		    	<artifactId>com.idega.restful</artifactId>
+		    	<version>4.1.3-SNAPSHOT</version>
       			<type>jar</type>
 		    </dependency>
 		</dependencies>

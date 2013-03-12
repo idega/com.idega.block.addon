@@ -166,3 +166,6 @@
 [submodule "com.idega.mobile"]
 	path = com.idega.mobile
 	url = git@github.com:idega/com.idega.mobile.git
+[submodule "com.idega.restful"]
+	path = com.idega.restful
+	url = git@github.com:idega/com.idega.restful.git
