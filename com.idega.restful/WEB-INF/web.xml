@@ -1,0 +1,42 @@
+<web-app xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+xmlns="http://java.sun.com/xml/ns/javaee" 
+xmlns:web="http://java.sun.com/xml/ns/javaee/web-app_2_5.xsd" 
+xsi:schemaLocation="http://java.sun.com/xml/ns/javaee 
+http://java.sun.com/xml/ns/javaee/web-app_2_5.xsd" id="WebApp_ID" version="2.5">
+
+    <servlet>
+        <servlet-name>Default RESTful Servlet</servlet-name>
+        <servlet-class>com.idega.restful.servlet.DefaulRestfulServlet</servlet-class>
+        <init-param>
+            <param-name>com.sun.jersey.api.json.POJOMappingFeature</param-name>
+            <param-value>true</param-value>
+        </init-param>
+        <load-on-startup>10</load-on-startup>
+    </servlet>
+    
+    <!-- Configuration for HTTPS protocol -->
+    <!--
+    <security-constraint>
+    	<web-resource-collection>
+    		<web-resource-name>Securing all requests to ePlatform</web-resource-name>
+    		<description>Redirect all to SSL</description>
+    		<url-pattern>/*</url-pattern>
+    		<http-method>GET</http-method>
+    		<http-method>POST</http-method>
+    		<http-method>HEAD</http-method>
+    		<http-method>PUT</http-method>
+    		<http-method>OPTIONS</http-method>
+    		<http-method>TRACE</http-method>
+    		<http-method>DELETE</http-method>
+    	</web-resource-collection>
+    	<user-data-constraint>
+    		<transport-guarantee>CONFIDENTIAL</transport-guarantee>
+    	</user-data-constraint>
+    </security-constraint>
+    -->
+    
+    <filter>
+		<filter-name>Default RESTful Filter</filter-name>
+		<filter-class>com.idega.restful.servlet.DefaulRestfulServlet</filter-class>
+	</filter>
+</web-app>
