@@ -488,13 +488,49 @@
 		</dependencies>
 	</dependencyManagement>
 
-  <distributionManagement>
-    <site>
-      <id>idega1addon</id>
-      <name>idega Maven2 Documentation site</name>
-          <url>file:///var/www/webs/developer.idega.com/platform4/addon</url>
-    </site>
-  </distributionManagement>
+	<build>
+		<pluginManagement>
+			<plugins>
+				<plugin>
+					<groupId>org.codehaus.mojo</groupId>
+					<artifactId>axistools-maven-plugin</artifactId>
+					<version>1.4</version>
+				</plugin>
+				<plugin>
+					<groupId>org.eclipse.m2e</groupId>
+					<artifactId>lifecycle-mapping</artifactId>
+					<version>1.0.0</version>
+					<configuration>
+						<lifecycleMappingMetadata>
+							<pluginExecutions>
+								<pluginExecution>
+									<pluginExecutionFilter>
+										<groupId>org.codehaus.mojo</groupId>
+										<artifactId>axistools-maven-plugin</artifactId>
+										<versionRange>[1.0.0,)</versionRange>
+										<goals>
+											<goal>wsdl2java</goal>
+										</goals>
+									</pluginExecutionFilter>
+									<action>
+										<ignore />
+									</action>
+								</pluginExecution>
+							</pluginExecutions>
+						</lifecycleMappingMetadata>
+					</configuration>
+				</plugin>
+			</plugins>
+		</pluginManagement>
+	</build>
+
+	<distributionManagement>
+		<site>
+			<id>idega1addon</id>
+			<name>idega Maven2 Documentation site</name>
+			<url>file:///var/www/webs/developer.idega.com/platform4/addon</url>
+		</site>
+	</distributionManagement>
 
 	<properties>
 	<!-- common used libraries versions. construct property as: <group id>-<artifact id>-version -->
