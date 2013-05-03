@@ -75,7 +75,6 @@
 		<module>com.idega.mobile</module>
 		<module>com.idega.restful</module>
 		<module>com.idega.xroad.client</module>
-		<module>com.idega.xroad.service</module>
 	</modules>
 
 	<dependencyManagement>
