@@ -169,3 +169,9 @@
 [submodule "com.idega.restful"]
 	path = com.idega.restful
 	url = git@github.com:idega/com.idega.restful.git
+[submodule "com.idega.xroad.client"]
+	path = com.idega.xroad.client
+	url = https://github.com/idega/com.idega.xroad.client.git
+[submodule "com.idega.xroad.service"]
+	path = com.idega.xroad.service
+	url = https://github.com/idega/com.idega.xroad.service.git
