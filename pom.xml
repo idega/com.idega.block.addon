@@ -75,6 +75,8 @@
 		<module>com.idega.mobile</module>
 		<module>com.idega.restful</module>
 		<module>com.idega.xroad.client</module>
+		<module>com.idega.block.oauth2.client</module>
+		<module>com.idega.block.facebook.client</module>
 	</modules>
 
 	<dependencyManagement>

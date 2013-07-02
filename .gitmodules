@@ -178,3 +178,9 @@
 [submodule "com.idega.xroad.client"]
 	path = com.idega.xroad.client
 	url = https://github.com/idega/com.idega.xroad.client.git
+[submodule "com.idega.block.oauth2.client"]
+	path = com.idega.block.oauth2.client
+	url = ./com.idega.block.oauth2.client/
+[submodule "com.idega.block.facebook.client"]
+	path = com.idega.block.facebook.client
+	url = ./com.idega.block.facebook.client/
