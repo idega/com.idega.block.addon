@@ -177,10 +177,10 @@
 	url = git@github.com:idega/com.idega.restful.git
 [submodule "com.idega.xroad.client"]
 	path = com.idega.xroad.client
-	url = https://github.com/idega/com.idega.xroad.client.git
+	url = git@github.com:idega/com.idega.xroad.client.git
 [submodule "com.idega.block.oauth2.client"]
 	path = com.idega.block.oauth2.client
-	url = ./com.idega.block.oauth2.client/
+	url = git@github.com:idega/com.idega.block.oauth2.client.git
 [submodule "com.idega.block.facebook.client"]
 	path = com.idega.block.facebook.client
-	url = ./com.idega.block.facebook.client/
+	url = git@github.com:idega/com.idega.block.facebook.client.git
