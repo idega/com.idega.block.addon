@@ -184,3 +184,6 @@
 [submodule "com.idega.block.facebook.client"]
 	path = com.idega.block.facebook.client
 	url = ./com.idega.block.facebook.client/
+[submodule "com.idega.block.bank"]
+	path = com.idega.block.bank
+	url = ./com.idega.block.bank/
