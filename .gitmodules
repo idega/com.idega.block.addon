@@ -184,3 +184,6 @@
 [submodule "com.idega.block.facebook.client"]
 	path = com.idega.block.facebook.client
 	url = git@github.com:idega/com.idega.block.facebook.client.git
+[submodule "com.idega.block.bank"]
+        path = com.idega.block.bank
+        url = git@github.com:idega/com.idega.block.bank.git
