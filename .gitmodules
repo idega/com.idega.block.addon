@@ -139,9 +139,6 @@
 [submodule "com.idega.block.help"]
 	path = com.idega.block.help
 	url = git@github.com:idega/com.idega.block.help.git
-[submodule "com.firebird.database"]
-	path = com.firebird.database
-	url = git@github.com:idega/com.firebird.database.git
 [submodule "com.idega.block.elight"]
 	path = com.idega.block.elight
 	url = git@github.com:idega/com.idega.block.elight.git
