@@ -178,3 +178,6 @@
 [submodule "com.idega.block.bank"]
         path = com.idega.block.bank
         url = git@github.com:idega/com.idega.block.bank.git
+[submodule "com.idega.block.oauth2.server"]
+	path = com.idega.block.oauth2.server
+	url = https://github.com/idega/com.idega.block.oauth2.server.git
