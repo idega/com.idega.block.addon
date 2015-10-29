@@ -181,3 +181,12 @@
 [submodule "com.idega.block.oauth2.server"]
 	path = com.idega.block.oauth2.server
 	url = https://github.com/idega/com.idega.block.oauth2.server.git
+[submodule "com.idega.block.user"]
+	path = com.idega.block.user
+	url = git@github.com:idega/com.idega.block.user.git
+[submodule "com.idega.block.filter"]
+	path = com.idega.block.filter
+	url = git@github.com:idega/com.idega.block.filter.git
+[submodule "com.idega.idegaweb.widget"]
+	path = com.idega.idegaweb.widget
+	url = git@github.com:idega/com.idega.idegaweb.widget.git
