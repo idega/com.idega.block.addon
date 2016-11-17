@@ -622,8 +622,10 @@
 	
 		<!-- KEEP ALPHABETICAL ORDER PLS -->
 		<addressing-addressing-version>1.0</addressing-addressing-version>
+		<org-apache-wss4j-version>2.1.7</org-apache-wss4j-version>
+		<org-jboss-jbpm2-version>6.4.0.Final</org-jboss-jbpm2-version>
 		<org-chiba-chiba-version>1.4.0-idega-m4</org-chiba-chiba-version>
 		<org-chiba-chiba-web-jar-version>2.2.0</org-chiba-chiba-web-jar-version>
-		<xml-security-xmlsec-version>1.4.4</xml-security-xmlsec-version>
+		<xml-security-xmlsec-version>2.1.7</xml-security-xmlsec-version>
 	</properties>
 </project>
