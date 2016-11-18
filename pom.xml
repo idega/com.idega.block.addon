@@ -626,6 +626,6 @@
 		<org-jboss-jbpm2-version>6.4.0.Final</org-jboss-jbpm2-version>
 		<org-chiba-chiba-version>1.4.0-idega-m4</org-chiba-chiba-version>
 		<org-chiba-chiba-web-jar-version>2.2.0</org-chiba-chiba-web-jar-version>
-		<xml-security-xmlsec-version>2.1.7</xml-security-xmlsec-version>
+		<xml-security-xmlsec-version>2.0.6</xml-security-xmlsec-version>
 	</properties>
 </project>
