@@ -190,3 +190,6 @@
 [submodule "com.idega.idegaweb.widget"]
 	path = com.idega.idegaweb.widget
 	url = git@github.com:idega/com.idega.idegaweb.widget.git
+[submodule "com.idega.jbpm"]
+	path = com.idega.jbpm
+	url = git@github.com:idega/com.idega.jbpm.git
