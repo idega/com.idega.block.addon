@@ -1,4 +1,5 @@
-<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/maven-v4_0_0.xsd">
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/maven-v4_0_0.xsd">
 	<modelVersion>4.0.0</modelVersion>
 	<parent>
 		<groupId>com.idega.block.platform</groupId>
@@ -87,256 +88,256 @@
 
 	<dependencyManagement>
 		<dependencies>
-        	<dependency>
-            	<groupId>com.idega.block.addon</groupId>
-                <artifactId>com.idega.block.oauth2.client</artifactId>
-                <version>6.0.0-SNAPSHOT</version>
-                <type>jar</type>
-            </dependency>
-            <dependency>
-                <groupId>com.idega.block.addon</groupId>
-                <artifactId>com.idega.block.facebook.client</artifactId>
-                <version>6.0.0-SNAPSHOT</version>
-                <type>jar</type>
-            </dependency>
+			<dependency>
+				<groupId>com.idega.block.addon</groupId>
+				<artifactId>com.idega.block.oauth2.client</artifactId>
+				<version>${project.version}</version>
+				<type>jar</type>
+			</dependency>
+			<dependency>
+				<groupId>com.idega.block.addon</groupId>
+				<artifactId>com.idega.block.facebook.client</artifactId>
+				<version>${project.version}</version>
+				<type>jar</type>
+			</dependency>
 			<dependency>
 				<groupId>com.idega.block.addon</groupId>
 				<artifactId>com.idega.block.elight</artifactId>
-				<version>6.0.0-SNAPSHOT</version>
+				<version>${project.version}</version>
 				<type>jar</type>
 			</dependency>
 			<dependency>
 				<groupId>com.idega.block.addon</groupId>
 				<artifactId>com.idega.block.banner</artifactId>
-				<version>6.0.0-SNAPSHOT</version>
+				<version>${project.version}</version>
 				<type>jar</type>
 			</dependency>
 			<dependency>
 				<groupId>com.idega.block.addon</groupId>
 				<artifactId>com.idega.block.beanshell</artifactId>
-				<version>6.0.0-SNAPSHOT</version>
+				<version>${project.version}</version>
 				<type>jar</type>
 			</dependency>
 			<dependency>
 				<groupId>com.idega.block.addon</groupId>
 				<artifactId>com.idega.block.boxoffice</artifactId>
-				<version>6.0.0-SNAPSHOT</version>
+				<version>${project.version}</version>
 				<type>jar</type>
 			</dependency>
 			<dependency>
 				<groupId>com.idega.block.addon</groupId>
 				<artifactId>com.idega.block.building</artifactId>
-				<version>6.0.0-SNAPSHOT</version>
+				<version>${project.version}</version>
 				<type>jar</type>
 			</dependency>
 			<dependency>
 				<groupId>com.idega.block.addon</groupId>
 				<artifactId>com.idega.block.cal</artifactId>
-				<version>6.0.0-SNAPSHOT</version>
+				<version>${project.version}</version>
 				<type>jar</type>
 			</dependency>
 			<dependency>
 				<groupId>com.idega.block.addon</groupId>
 				<artifactId>com.idega.block.calendar</artifactId>
-				<version>6.0.0-SNAPSHOT</version>
+				<version>${project.version}</version>
 				<type>jar</type>
 			</dependency>
 			<dependency>
 				<groupId>com.idega.block.addon</groupId>
 				<artifactId>com.idega.block.category</artifactId>
-				<version>6.0.0-SNAPSHOT</version>
+				<version>${project.version}</version>
 				<type>jar</type>
 			</dependency>
 			<dependency>
 				<groupId>com.idega.block.addon</groupId>
 				<artifactId>com.idega.block.contract</artifactId>
-				<version>6.0.0-SNAPSHOT</version>
+				<version>${project.version}</version>
 				<type>jar</type>
 			</dependency>
 			<dependency>
 				<groupId>com.idega.block.addon</groupId>
 				<artifactId>com.idega.block.creditcard</artifactId>
-				<version>6.0.0-SNAPSHOT</version>
+				<version>${project.version}</version>
 				<type>jar</type>
 			</dependency>
 			<dependency>
 				<groupId>com.idega.block.addon</groupId>
 				<artifactId>com.idega.block.dataquery</artifactId>
-				<version>6.0.0-SNAPSHOT</version>
+				<version>${project.version}</version>
 				<type>jar</type>
 			</dependency>
 			<dependency>
 				<groupId>com.idega.block.addon</groupId>
 				<artifactId>com.idega.block.datareport</artifactId>
-				<version>6.0.0-SNAPSHOT</version>
+				<version>${project.version}</version>
 				<type>jar</type>
 			</dependency>
 			<dependency>
 				<groupId>com.idega.block.addon</groupId>
 				<artifactId>com.idega.block.dictionary</artifactId>
-				<version>6.0.0-SNAPSHOT</version>
+				<version>${project.version}</version>
 				<type>jar</type>
 			</dependency>
 			<dependency>
 				<groupId>com.idega.block.addon</groupId>
 				<artifactId>com.idega.block.documents</artifactId>
-				<version>6.0.0-SNAPSHOT</version>
+				<version>${project.version}</version>
 				<type>jar</type>
 			</dependency>
 			<dependency>
 				<groupId>com.idega.block.addon</groupId>
 				<artifactId>com.idega.block.email</artifactId>
-				<version>6.0.0-SNAPSHOT</version>
+				<version>${project.version}</version>
 				<type>jar</type>
 			</dependency>
 			<dependency>
 				<groupId>com.idega.block.addon</groupId>
 				<artifactId>com.idega.block.forum</artifactId>
-				<version>6.0.0-SNAPSHOT</version>
+				<version>${project.version}</version>
 				<type>jar</type>
 			</dependency>
 			<dependency>
 				<groupId>com.idega.block.addon</groupId>
 				<artifactId>com.idega.block.help</artifactId>
-				<version>6.0.0-SNAPSHOT</version>
+				<version>${project.version}</version>
 				<type>jar</type>
 			</dependency>
 			<dependency>
 				<groupId>com.idega.block.addon</groupId>
 				<artifactId>com.idega.block.importer</artifactId>
-				<version>6.0.0-SNAPSHOT</version>
+				<version>${project.version}</version>
 				<type>jar</type>
 			</dependency>
 			<dependency>
 				<groupId>com.idega.block.addon</groupId>
 				<artifactId>com.idega.block.ldap</artifactId>
-				<version>6.0.0-SNAPSHOT</version>
+				<version>${project.version}</version>
 				<type>jar</type>
 			</dependency>
 			<dependency>
 				<groupId>com.idega.block.addon</groupId>
 				<artifactId>com.idega.block.messenger</artifactId>
-				<version>6.0.0-SNAPSHOT</version>
+				<version>${project.version}</version>
 				<type>jar</type>
 			</dependency>
 			<dependency>
 				<groupId>com.idega.block.addon</groupId>
 				<artifactId>com.idega.block.news</artifactId>
-				<version>6.0.0-SNAPSHOT</version>
+				<version>${project.version}</version>
 				<type>jar</type>
 			</dependency>
 			<dependency>
 				<groupId>com.idega.block.addon</groupId>
 				<artifactId>com.idega.block.pdf</artifactId>
-				<version>6.0.0-SNAPSHOT</version>
+				<version>${project.version}</version>
 				<type>jar</type>
 			</dependency>
 			<dependency>
 				<groupId>com.idega.block.addon</groupId>
 				<artifactId>com.idega.block.poll</artifactId>
-				<version>6.0.0-SNAPSHOT</version>
+				<version>${project.version}</version>
 				<type>jar</type>
 			</dependency>
 			<dependency>
 				<groupId>com.idega.block.addon</groupId>
 				<artifactId>com.idega.block.questions</artifactId>
-				<version>6.0.0-SNAPSHOT</version>
+				<version>${project.version}</version>
 				<type>jar</type>
 			</dependency>
 			<dependency>
 				<groupId>com.idega.block.addon</groupId>
 				<artifactId>com.idega.block.quote</artifactId>
-				<version>6.0.0-SNAPSHOT</version>
+				<version>${project.version}</version>
 				<type>jar</type>
 			</dependency>
 			<dependency>
 				<groupId>com.idega.block.addon</groupId>
 				<artifactId>com.idega.block.reports</artifactId>
-				<version>6.0.0-SNAPSHOT</version>
+				<version>${project.version}</version>
 				<type>jar</type>
 			</dependency>
 			<dependency>
 				<groupId>com.idega.block.addon</groupId>
 				<artifactId>com.idega.block.sso</artifactId>
-				<version>6.0.0-SNAPSHOT</version>
+				<version>${project.version}</version>
 				<type>jar</type>
 			</dependency>
 			<dependency>
 				<groupId>com.idega.block.addon</groupId>
 				<artifactId>com.idega.block.staff</artifactId>
-				<version>6.0.0-SNAPSHOT</version>
+				<version>${project.version}</version>
 				<type>jar</type>
 			</dependency>
 			<dependency>
 				<groupId>com.idega.block.addon</groupId>
 				<artifactId>com.idega.block.survey</artifactId>
-				<version>6.0.0-SNAPSHOT</version>
+				<version>${project.version}</version>
 				<type>jar</type>
 			</dependency>
 			<dependency>
 				<groupId>com.idega.block.addon</groupId>
 				<artifactId>com.idega.block.text</artifactId>
-				<version>6.0.0-SNAPSHOT</version>
+				<version>${project.version}</version>
 				<type>jar</type>
 			</dependency>
 			<dependency>
 				<groupId>com.idega.block.addon</groupId>
 				<artifactId>com.idega.block.trade</artifactId>
-				<version>6.0.0-SNAPSHOT</version>
+				<version>${project.version}</version>
 				<type>jar</type>
 			</dependency>
 			<dependency>
 				<groupId>com.idega.block.addon</groupId>
 				<artifactId>com.idega.fop</artifactId>
-				<version>6.0.0-SNAPSHOT</version>
+				<version>${project.version}</version>
 				<type>jar</type>
 			</dependency>
 			<dependency>
 				<groupId>com.idega.block.addon</groupId>
 				<artifactId>net.sourceforge.hsqldb</artifactId>
-				<version>6.0.0-SNAPSHOT</version>
+				<version>${project.version}</version>
 				<type>jar</type>
 			</dependency>
 			<dependency>
 				<groupId>com.idega.block.addon</groupId>
 				<artifactId>org.jboss.jbpm</artifactId>
-				<version>6.0.0-SNAPSHOT</version>
+				<version>${project.version}</version>
 				<type>jar</type>
 			</dependency>
 			<dependency>
-                <groupId>com.idega.block.addon</groupId>
-                <artifactId>com.idega.bpm</artifactId>
-                <version>6.0.0-SNAPSHOT</version>
-                <type>jar</type>
-            </dependency>
+				<groupId>com.idega.block.addon</groupId>
+				<artifactId>com.idega.bpm</artifactId>
+				<version>${project.version}</version>
+				<type>jar</type>
+			</dependency>
 			<dependency>
 				<groupId>com.idega.block.addon</groupId>
 				<artifactId>com.idega.block.form</artifactId>
-				<version>6.0.0-SNAPSHOT</version>
+				<version>${project.version}</version>
 				<type>jar</type>
 			</dependency>
 			<dependency>
 				<groupId>com.idega.block.addon</groupId>
 				<artifactId>com.idega.xformsmanager</artifactId>
-				<version>6.0.0-SNAPSHOT</version>
+				<version>${project.version}</version>
 				<type>jar</type>
 			</dependency>
 			<dependency>
 				<groupId>com.idega.block.addon</groupId>
 				<artifactId>org.chiba.web</artifactId>
-				<version>6.0.0-SNAPSHOT</version>
+				<version>${project.version}</version>
 				<type>jar</type>
 			</dependency>
 			<dependency>
 				<groupId>com.idega.block.addon</groupId>
 				<artifactId>com.idega.formbuilder</artifactId>
-				<version>6.0.0-SNAPSHOT</version>
+				<version>${project.version}</version>
 				<type>jar</type>
 			</dependency>
 			<dependency>
 				<groupId>com.idega.block.addon</groupId>
 				<artifactId>com.idega.block.websearch</artifactId>
-				<version>6.0.0-SNAPSHOT</version>
+				<version>${project.version}</version>
 				<type>jar</type>
 				<exclusions>
 					<exclusion>
@@ -351,27 +352,27 @@
 				<version>${org-chiba-chiba-web-jar-version}</version>
 				<type>jar</type>
 				<exclusions>
-						<exclusion>
-				            <groupId>commons-fileupload</groupId>
-				            <artifactId>commons-fileupload</artifactId>            
-				        </exclusion>
-				        <exclusion>
-				            <groupId>commons-io</groupId>
-				            <artifactId>commons-io</artifactId>            
-				        </exclusion>
-				        <exclusion>
-				            <groupId>uk.ltd.getahead</groupId>
-				            <artifactId>dwr</artifactId>            
-				        </exclusion>
-				        <exclusion>
-				            <groupId>javax.servlet</groupId>
-				            <artifactId>servlet-api</artifactId>
-				        </exclusion>
-				        <exclusion>
-				            <groupId>junit</groupId>
-				            <artifactId>junit</artifactId>
-				        </exclusion>
-				</exclusions>				
+					<exclusion>
+						<groupId>commons-fileupload</groupId>
+						<artifactId>commons-fileupload</artifactId>
+					</exclusion>
+					<exclusion>
+						<groupId>commons-io</groupId>
+						<artifactId>commons-io</artifactId>
+					</exclusion>
+					<exclusion>
+						<groupId>uk.ltd.getahead</groupId>
+						<artifactId>dwr</artifactId>
+					</exclusion>
+					<exclusion>
+						<groupId>javax.servlet</groupId>
+						<artifactId>servlet-api</artifactId>
+					</exclusion>
+					<exclusion>
+						<groupId>junit</groupId>
+						<artifactId>junit</artifactId>
+					</exclusion>
+				</exclusions>
 			</dependency>
 			<dependency>
 				<groupId>org.chiba</groupId>
@@ -384,175 +385,175 @@
 						<artifactId>xercesImpl</artifactId>
 					</exclusion>
 					<exclusion>
-			            <groupId>commons-codec</groupId>
-			            <artifactId>commons-codec</artifactId>            
-			        </exclusion>
-			        <exclusion>
-			            <groupId>commons-httpclient</groupId>
-			            <artifactId>commons-httpclient</artifactId>            
-			        </exclusion>
-			        <exclusion>
-			            <groupId>commons-jxpath</groupId>
-			            <artifactId>commons-jxpath</artifactId>            
-			        </exclusion>
-			        <exclusion>
-			            <groupId>commons-logging</groupId>
-			            <artifactId>commons-logging</artifactId>            
-			        </exclusion>
-			        <exclusion>
-			            <groupId>commons-logging</groupId>
-			            <artifactId>commons-logging-api</artifactId>            
-			        </exclusion>
-			        <exclusion>
-			            <groupId>javax.activation</groupId>
-			            <artifactId>activation</artifactId>            
-			        </exclusion>
-			        <exclusion>
-			            <groupId>javax.mail</groupId>
-			            <artifactId>mail</artifactId>            
-			        </exclusion>
-			        <exclusion>
-			            <groupId>xml-apis</groupId>
-			            <artifactId>xml-apis</artifactId>            
-			        </exclusion>
-			        <exclusion>
-			            <groupId>junit</groupId>
-			            <artifactId>junit</artifactId>
-			        </exclusion>
+						<groupId>commons-codec</groupId>
+						<artifactId>commons-codec</artifactId>
+					</exclusion>
+					<exclusion>
+						<groupId>commons-httpclient</groupId>
+						<artifactId>commons-httpclient</artifactId>
+					</exclusion>
+					<exclusion>
+						<groupId>commons-jxpath</groupId>
+						<artifactId>commons-jxpath</artifactId>
+					</exclusion>
+					<exclusion>
+						<groupId>commons-logging</groupId>
+						<artifactId>commons-logging</artifactId>
+					</exclusion>
+					<exclusion>
+						<groupId>commons-logging</groupId>
+						<artifactId>commons-logging-api</artifactId>
+					</exclusion>
+					<exclusion>
+						<groupId>javax.activation</groupId>
+						<artifactId>activation</artifactId>
+					</exclusion>
+					<exclusion>
+						<groupId>javax.mail</groupId>
+						<artifactId>mail</artifactId>
+					</exclusion>
+					<exclusion>
+						<groupId>xml-apis</groupId>
+						<artifactId>xml-apis</artifactId>
+					</exclusion>
+					<exclusion>
+						<groupId>junit</groupId>
+						<artifactId>junit</artifactId>
+					</exclusion>
 				</exclusions>
 			</dependency>
 			<dependency>
-                <groupId>com.idega.block.addon</groupId>
-                <artifactId>com.idega.block.basket</artifactId>
-                <version>6.0.0-SNAPSHOT</version>
-                <type>jar</type>
-            </dependency>
-            <dependency>
-                <groupId>com.idega.block.addon</groupId>
-                <artifactId>is.idega.iceland</artifactId>
-                <version>6.0.0-SNAPSHOT</version>
-                <type>jar</type>
-            </dependency>
-            <dependency>
-                <groupId>com.idega.block.addon</groupId>
-                <artifactId>is.fmr.landskra</artifactId>
-                <version>6.0.0-SNAPSHOT</version>
-                <type>jar</type>
-            </dependency>
-            <dependency>
-                <groupId>com.idega.block.addon</groupId>
-                <artifactId>is.idega.block.modernus</artifactId>
-                <version>6.0.0-SNAPSHOT</version>
-                <type>jar</type>
-            </dependency>
-            <dependency>
-                <groupId>com.idega.block.addon</groupId>
-  				<artifactId>com.idega.block.weather</artifactId>
-  				<version>6.0.0-SNAPSHOT</version>
-                <type>jar</type>
-            </dependency>
-            <dependency>
-                <groupId>com.idega.block.addon</groupId>
-  				<artifactId>is.idega.block.weather</artifactId>
-  				<version>6.0.0-SNAPSHOT</version>
-                <type>jar</type>
-            </dependency>
-            <dependency>
-                <groupId>com.idega.block.addon</groupId>
-  				<artifactId>com.sapdb.database</artifactId>
-  				<version>6.0.0-SNAPSHOT</version>
-                <type>jar</type>
-            </dependency>
-            <dependency>
-                <groupId>com.idega.block.addon</groupId>
-  				<artifactId>com.idega.block.finance</artifactId>
-  				<version>6.0.0-SNAPSHOT</version>
-                <type>jar</type>
-            </dependency>
+				<groupId>com.idega.block.addon</groupId>
+				<artifactId>com.idega.block.basket</artifactId>
+				<version>${project.version}</version>
+				<type>jar</type>
+			</dependency>
 			<dependency>
-	      		<groupId>com.idega.block.addon</groupId>
-  		  		<artifactId>com.idega.ascertia</artifactId>
-		  		  <version>6.0.0-SNAPSHOT</version>
-	    		  <type>jar</type>
-	    	</dependency>
-	    	<dependency>
-      			<groupId>com.idega.block.addon</groupId>
-      			<artifactId>com.idega.block.caldav</artifactId>
-      			<version>6.0.0-SNAPSHOT</version>
-      			<type>jar</type>
-    		</dependency>
-    		<dependency>
-      			<groupId>com.idega.block.addon</groupId>
-      			<artifactId>com.idega.block.social</artifactId>
-      			<version>6.0.0-SNAPSHOT</version>
-      			<type>jar</type>
-    		</dependency>
-		    <dependency>
-		    	<groupId>com.idega.block.addon</groupId>
-		    	<artifactId>com.idega.xroad</artifactId>
-		    	<version>6.0.0-SNAPSHOT</version>
-      			<type>jar</type>
-		    </dependency>
-            <dependency>
-                <groupId>com.idega.block.addon</groupId>
-                <artifactId>com.idega.xroad.client</artifactId>
-                <version>6.0.0-SNAPSHOT</version>
-                <type>jar</type>
-            </dependency>
-		    <dependency>
-		    	<groupId>com.idega.block.addon</groupId>
-		    	<artifactId>com.idega.mobile</artifactId>
-		    	<version>6.0.0-SNAPSHOT</version>
-      			<type>jar</type>
-		    </dependency>
-		    <dependency>
-		    	<groupId>com.idega.block.addon</groupId>
-		    	<artifactId>com.idega.restful</artifactId>
-		    	<version>6.0.0-SNAPSHOT</version>
-      			<type>jar</type>
-		    </dependency>
-		    <dependency>
-		      <groupId>com.idega.block.addon</groupId>
-		      <artifactId>com.idega.xroad.client</artifactId>
-		      <version>6.0.0-SNAPSHOT</version>
-		      <type>jar</type>
-		    </dependency>
-		    <dependency>
-            	<groupId>com.idega.block.addon</groupId>
-                <artifactId>com.idega.block.bank</artifactId>
-                <version>6.0.0-SNAPSHOT</version>
-                <type>jar</type>
-            </dependency>
-            <dependency>
-            	<groupId>com.idega.block.addon</groupId>
-                <artifactId>com.idega.block.filter</artifactId>
-                <version>6.0.0-SNAPSHOT</version>
-                <type>jar</type>
-            </dependency>
-            <dependency>
-            	<groupId>com.idega.block.addon</groupId>
-            	<artifactId>com.idega.block.user</artifactId>
-            	<version>6.0.0-SNAPSHOT</version>
-                <type>jar</type>
-            </dependency>
-            <dependency>
-                <groupId>com.idega.block.addon</groupId>
-                <artifactId>com.idega.block.oauth2.server</artifactId>
-                <version>6.0.0-SNAPSHOT</version>
-                <type>jar</type>
-            </dependency>
-            <dependency>
-            	<groupId>com.idega.block.addon</groupId>
-            	<artifactId>com.idega.idegaweb.widget</artifactId>
-            	<version>6.0.0-SNAPSHOT</version>
-                <type>jar</type>
-            </dependency>
-            <dependency>
-            	<groupId>com.idega.block.addon</groupId>
-            	<artifactId>com.idega.jbpm</artifactId>
-            	<version>6.0.0-SNAPSHOT</version>
-                <type>jar</type>
-            </dependency>
+				<groupId>com.idega.block.addon</groupId>
+				<artifactId>is.idega.iceland</artifactId>
+				<version>${project.version}</version>
+				<type>jar</type>
+			</dependency>
+			<dependency>
+				<groupId>com.idega.block.addon</groupId>
+				<artifactId>is.fmr.landskra</artifactId>
+				<version>${project.version}</version>
+				<type>jar</type>
+			</dependency>
+			<dependency>
+				<groupId>com.idega.block.addon</groupId>
+				<artifactId>is.idega.block.modernus</artifactId>
+				<version>${project.version}</version>
+				<type>jar</type>
+			</dependency>
+			<dependency>
+				<groupId>com.idega.block.addon</groupId>
+				<artifactId>com.idega.block.weather</artifactId>
+				<version>${project.version}</version>
+				<type>jar</type>
+			</dependency>
+			<dependency>
+				<groupId>com.idega.block.addon</groupId>
+				<artifactId>is.idega.block.weather</artifactId>
+				<version>${project.version}</version>
+				<type>jar</type>
+			</dependency>
+			<dependency>
+				<groupId>com.idega.block.addon</groupId>
+				<artifactId>com.sapdb.database</artifactId>
+				<version>${project.version}</version>
+				<type>jar</type>
+			</dependency>
+			<dependency>
+				<groupId>com.idega.block.addon</groupId>
+				<artifactId>com.idega.block.finance</artifactId>
+				<version>${project.version}</version>
+				<type>jar</type>
+			</dependency>
+			<dependency>
+				<groupId>com.idega.block.addon</groupId>
+				<artifactId>com.idega.ascertia</artifactId>
+				<version>${project.version}</version>
+				<type>jar</type>
+			</dependency>
+			<dependency>
+				<groupId>com.idega.block.addon</groupId>
+				<artifactId>com.idega.block.caldav</artifactId>
+				<version>${project.version}</version>
+				<type>jar</type>
+			</dependency>
+			<dependency>
+				<groupId>com.idega.block.addon</groupId>
+				<artifactId>com.idega.block.social</artifactId>
+				<version>${project.version}</version>
+				<type>jar</type>
+			</dependency>
+			<dependency>
+				<groupId>com.idega.block.addon</groupId>
+				<artifactId>com.idega.xroad</artifactId>
+				<version>${project.version}</version>
+				<type>jar</type>
+			</dependency>
+			<dependency>
+				<groupId>com.idega.block.addon</groupId>
+				<artifactId>com.idega.xroad.client</artifactId>
+				<version>${project.version}</version>
+				<type>jar</type>
+			</dependency>
+			<dependency>
+				<groupId>com.idega.block.addon</groupId>
+				<artifactId>com.idega.mobile</artifactId>
+				<version>${project.version}</version>
+				<type>jar</type>
+			</dependency>
+			<dependency>
+				<groupId>com.idega.block.addon</groupId>
+				<artifactId>com.idega.restful</artifactId>
+				<version>${project.version}</version>
+				<type>jar</type>
+			</dependency>
+			<dependency>
+				<groupId>com.idega.block.addon</groupId>
+				<artifactId>com.idega.xroad.client</artifactId>
+				<version>${project.version}</version>
+				<type>jar</type>
+			</dependency>
+			<dependency>
+				<groupId>com.idega.block.addon</groupId>
+				<artifactId>com.idega.block.bank</artifactId>
+				<version>${project.version}</version>
+				<type>jar</type>
+			</dependency>
+			<dependency>
+				<groupId>com.idega.block.addon</groupId>
+				<artifactId>com.idega.block.filter</artifactId>
+				<version>${project.version}</version>
+				<type>jar</type>
+			</dependency>
+			<dependency>
+				<groupId>com.idega.block.addon</groupId>
+				<artifactId>com.idega.block.user</artifactId>
+				<version>${project.version}</version>
+				<type>jar</type>
+			</dependency>
+			<dependency>
+				<groupId>com.idega.block.addon</groupId>
+				<artifactId>com.idega.block.oauth2.server</artifactId>
+				<version>${project.version}</version>
+				<type>jar</type>
+			</dependency>
+			<dependency>
+				<groupId>com.idega.block.addon</groupId>
+				<artifactId>com.idega.idegaweb.widget</artifactId>
+				<version>${project.version}</version>
+				<type>jar</type>
+			</dependency>
+			<dependency>
+				<groupId>com.idega.block.addon</groupId>
+				<artifactId>com.idega.jbpm</artifactId>
+				<version>${project.version}</version>
+				<type>jar</type>
+			</dependency>
 		</dependencies>
 	</dependencyManagement>
 
@@ -625,8 +626,9 @@
 	</distributionManagement>
 
 	<properties>
-	<!-- common used libraries versions. construct property as: <group id>-<artifact id>-version -->
-	
+		<!-- common used libraries versions. construct property as: <group id>-<artifact 
+			id>-version -->
+
 		<!-- KEEP ALPHABETICAL ORDER PLS -->
 		<addressing-addressing-version>1.0</addressing-addressing-version>
 		<org-apache-wss4j-version>2.1.7</org-apache-wss4j-version>
