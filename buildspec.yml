@@ -1,0 +1,42 @@
+version: 0.2
+
+run-as: root
+
+env:
+  shell: bash
+  secrets-manager:
+    AWS_ACCESS_KEY: ${IW_AWS_ACCESS_KEY_ARN}
+    AWS_SECRET_KEY: ${IW_AWS_ACCESS_SECRET_ARN}
+
+batch:
+  fast-fail: true
+
+phases:
+  install:
+    run-as: root
+    on-failure: ABORT
+    commands:
+      - sudo yum -y install git maven awscli
+      - aws configure set aws_access_key_id $AWS_ACCESS_KEY
+      - aws configure set aws_secret_access_key $AWS_SECRET_KEY
+      - aws s3 cp $IW_JDK_PACKAGE_S3_PATH .
+      - aws s3 cp $IW_MAVEN_SETTINGS_S3_PATH .
+      - rpm -ivh --nodigest --nofiledigest $IW_JDK_PACKAGE_FILE_NAME
+      - rm -f $IW_JDK_PACKAGE_FILE_NAME
+      - mv settings.xml $HOME/.m2/settings.xml
+  pre_build:
+    run-as: root
+    on-failure: ABORT
+    commands:
+      - export readonly CODEARTIFACT_AUTH_TOKEN=$(aws codeartifact get-authorization-token --domain $IW_CODE_ART_DOMAIN --domain-owner $IW_CODE_ART_DOMAIN_OWNER --query authorizationToken --output text --region $IW_CODE_ART_DOMAIN_REGION)
+      - git submodule init
+      - git submodule update
+      - git pull
+      - git checkout BRANCH_PLATFORM_5
+      - git submodule foreach git checkout BRANCH_PLATFORM_5
+      - git submodule foreach git pull
+  build:
+    run-as: root
+    on-failure: ABORT
+    commands:
+      - mvn clean install -DskipTests
